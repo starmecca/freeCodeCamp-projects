@@ -1,0 +1,102 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"> </meta>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </meta/>
+    <title>Juicy Remedies Intake Form</title>
+    <link rel="stylesheet" href="styles.css" />
+   </head> 
+     
+<body>
+    <h1 id="title">Juicy Remedies Intake Form</h1>
+
+    <p id="description">We are pleased to make your aquaintance! </p>
+    <p id="Benefits">BENEFITS: Participation in a regular program of physical activity has been shown to produce positive changes in a number of organ systems. 
+These changes include increased work capacity, improved cardiovascular efficiency, and increased muscular strength, flexibility, 
+power, and endurance. </p>
+<p id="Risks">RISKS:
+
+I recognize that exercise carries some risk to the musculoskeletal system (sprains, strains) and the cardiorespiratory system (dizziness, 
+discomfort in breathing, heart attack). I hereby certify that I know of no medical problem (except those noted below) that would 
+increase my risk of illness and injury as a result of participation in a regular exercise program. </p>
+<p>Please let us know how best to help you meet your fitness goals. Must be 18 and over.
+</p>
+<hr>
+    <section>
+  <div>
+  <legend>Tell us a little bit about you.</legend>
+    <form id="survey-form">
+      <div>
+      <select id="dropdown">
+        <option>Mr.</option>
+        <option>Mrs.</option>
+        <option>Ms.</option>
+        <option>Miss</option>
+      </select>
+        <label id="name-label" for="name">Enter your name: <input id="name" type="text" placeholder="Jane Doe" required/> </label>
+        <label id="email-label" for"email">Enter your email<input id="email" type="email" placeholder="janedoe@email.com"required/> </label>
+        <label id="number-label" for"number">Enter your age<input id="number" type="number" placeholder="25" min="18" max="120" required/> </label>
+</div>
+
+<div>
+  <legend>What best describe your health goals? If "Other" is selected, please elaborate below:</legend>
+  <select id="dropdown">
+        <option>Lose Fat</option>
+        <option>Strengthen</option>
+        <option>Tone Muscles</option>
+        <option>Get fit for an event less than 6 months away</option>
+        <option>Other</option>
+      </select>
+      <textarea id="fitness-goal" name="fitness-goal" rows="4" cols="50">
+Our trainers are ISSA certified and can help you reach your fitness goals with a taylored program designed at your fitness level. To best assist you.
+</textarea>
+
+</div>
+<div>
+    <input type="radio" name="service" value="Workout Regime" display="block"/> Workout Plan
+    <input type="radio" name="service" value="Meal Plan" display="block"/> Meal Plan
+    <input type="radio" name="service" value="Workout Regime + Meal Plan" display="block"/>  Workout + Meal Plan
+</div>
+
+<div>
+  <input type="checkbox" value="Abs"/>Abs
+  <input type="checkbox" value="Arms"/>Arms
+  <input type="checkbox" value="Back"/>Back
+  <input type="checkbox" value="Buttocks"/>Buttocks
+  <input type="checkbox" value="Full Body"/>Full Body
+  <input type="checkbox" value="Grip"/>Grip
+  <input type="checkbox" value="Legs"/>Legs
+  </div>
+         <hr>
+    <section>
+    <input id="submit" type="submit" />
+    </section>
+ 
+    </form>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+h1{
+  background-color: lavender;
+  color: green;
+  text-align: center;
+  border-style:solid; 
+}
+
+body {
+
+}
+
+p{
+  text-align: center;
+}
+
+** end of undefined **
+
